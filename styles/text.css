@@ -1,0 +1,63 @@
+h1 {
+    font-family: "Intro", sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: "Intro", sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: "Mulish", sans-serif;
+    font-size: 20px
+}
+
+p {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: inherit;
+}
+
+li {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+}
+
+.border-black {
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.border-gray {
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+    background-color: #f2f2f2;
+    display: inline-block;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    margin: 0 auto;
+}
