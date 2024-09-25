@@ -66,4 +66,6 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
