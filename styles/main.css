@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: Mulish, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 header, footer {
@@ -29,6 +29,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.active {
+    border: 3px white;
+    border-radius: 10px;
+    padding: 0 5px;
+    color: black;
+    background-color: white;
+    display: inline-block;
 }
 
 .nav-menu {
@@ -66,6 +75,8 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
 }
