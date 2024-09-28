@@ -20,7 +20,7 @@ main {
     flex-grow: 1;
 }
 
-.list {
+.column {
     list-style: none;
     padding: 0;
 }
