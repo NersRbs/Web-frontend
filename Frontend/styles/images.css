@@ -8,3 +8,9 @@ li img {
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
 }
+
+.main-logo {
+    border-radius: 100%;
+    width: auto;
+    height: 2em;
+}

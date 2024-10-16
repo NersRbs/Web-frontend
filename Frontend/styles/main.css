@@ -32,6 +32,16 @@ main {
     color: black;
     background-color: white;
     display: inline-block;
+    filter: none;
+}
+
+.nav-menu li a.active img {
+    filter: invert(100%);
+}
+
+.invert-image img {
+    transition: 0.3s ease;
+    filter: none;
 }
 
 .nav-menu {
@@ -63,6 +73,14 @@ main {
     color: black;
     background-color: white;
     display: inline-block;
+}
+
+.nav-menu li a img {
+    filter: none;
+}
+
+.nav-menu li a:hover img {
+    filter: invert(100%);
 }
 
 .grid-container {
