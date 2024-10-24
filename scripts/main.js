@@ -13,7 +13,7 @@ function displayLoadTime() {
 }
 
 function handleNavLinks() {
-    const navLinks = document.querySelectorAll('.nav-menu a');
+    const navLinks = document.querySelectorAll('nav a');
     let currentPath = window.location.pathname;
 
     if (currentPath === '/' || currentPath === '/index.html') {
@@ -32,6 +32,7 @@ function handleNavLinks() {
         }
     });
 }
+
 
 (function() {
     window.addEventListener('load', function() {
