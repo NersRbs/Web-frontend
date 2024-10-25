@@ -1,17 +1,3 @@
-function displayLoadTime() {
-    let loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
-    let footer = document.querySelector('footer');
-    let loadInfo = document.createElement('p');
-
-    loadInfo.textContent = `${loadTime} мс`;
-    loadInfo.style.color = 'lightgray';
-    loadInfo.style.fontSize = '10px';
-    loadInfo.style.margin = '0';
-    loadInfo.style.textAlign = 'right';
-
-    footer.appendChild(loadInfo);
-}
-
 function handleNavLinks() {
     const navLinks = document.querySelectorAll('nav a');
     let currentPath = window.location.pathname;
@@ -36,7 +22,6 @@ function handleNavLinks() {
 
 (function() {
     window.addEventListener('load', function() {
-        displayLoadTime();
         handleNavLinks();
     });
 })();
