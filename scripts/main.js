@@ -16,8 +16,8 @@ function handleNavLinks() {
     const navLinks = document.querySelectorAll('nav a');
     let currentPath = window.location.pathname;
 
-    if (currentPath === '/' || currentPath === '/index.html') {
-        currentPath = '/index.html';
+    if (currentPath === '/Web-frontend/') {
+        currentPath = '/Web-frontend/index.html';
     }
 
     navLinks.forEach(link => {
