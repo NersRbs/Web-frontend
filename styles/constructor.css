@@ -1,6 +1,5 @@
-/* Стили для всей страницы */
 body {
-    background-color: #1d1d1d;
+    background-color: black;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +9,6 @@ body {
     align-items: center;
 }
 
-/* Контейнер для списка задач */
 .todo-container {
     width: 400px;
     padding: 20px;
@@ -20,7 +18,6 @@ body {
     text-align: center;
 }
 
-/* Поля ввода и кнопка добавления */
 form {
     display: flex;
     gap: 10px;
@@ -31,7 +28,7 @@ input {
     flex: 1;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #4caf50;
+    border: 1px solid black;
 }
 
 button {
@@ -66,7 +63,7 @@ button {
     border-bottom: 1px solid gray;
 }
 
-.todo-item.completed span {
+.completed span {
     text-decoration: line-through;
     opacity: 0.6;
 }
