@@ -1,36 +1,40 @@
+html {
+    font-size: 16px;
+}
+
 h1 {
     font-family: "Intro", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 h2 {
     font-family: "Intro", sans-serif;
-    font-size: 24px;
+    font-size: 1.6rem;
 }
 
 h3 {
     font-family: "Intro ", sans-serif;
-    font-size: 20px
+    font-size: 1.3rem;
 }
 
 p {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 a {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: inherit;
 }
 
 li {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .border-black {
-    border: 3px white;
+    border: 3px white solid;
     border-radius: 30px;
     padding: 10px;
     color: white;
@@ -39,7 +43,7 @@ li {
 }
 
 .border-gray {
-    border: 3px white;
+    border: 3px white solid;
     border-radius: 30px;
     padding: 10px;
     color: black;
@@ -59,20 +63,34 @@ li {
     margin: 0 auto;
 }
 
+
 @media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
     .text-container {
         max-width: 100%;
     }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
+    html {
+        font-size: 16px;
+    }
+
     .text-container {
         max-width: 500px;
     }
 }
 
-@media (min-width: 901px) {
+@media (min-width: 900px) {
+    html {
+        font-size: 18px;
+    }
+
     .text-container {
         max-width: 600px;
     }
 }
+
