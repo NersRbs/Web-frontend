@@ -3,7 +3,7 @@ function handleNavLinks() {
     let currentPath = window.location.pathname;
 
     if (currentPath === "/Web-frontend/" || currentPath === "/Web-frontend/index.html") {
-        currentPath = '/Web-frontend/';
+        currentPath = '/Web-frontend/index.html';
     }
 
     navLinks.forEach(link => {
