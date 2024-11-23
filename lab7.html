@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Gallery Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <style>
+        .swiper {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/telegram-icon.png" alt="Image 1"></div>
+        <div class="swiper-slide"><img src="images/github-icon.png" alt="Image 2"></div>
+        <div class="swiper-slide"><img src="images/main-logo.png" alt="Image 3"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    new Swiper('.swiper', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+</body>
+</html>

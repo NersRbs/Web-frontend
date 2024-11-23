@@ -3,7 +3,7 @@ li img {
     height: 0.9em;
 }
 
-.rounded-img {
+.my-photo {
     width: 30%;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0, 0, 0.3);

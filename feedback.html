@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/text.css">
     <link rel="stylesheet" href="styles/images.css">
+    <link rel="stylesheet" href="styles/data.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/feedback.js"></script>
 </head>
 <body>
 <header>
@@ -35,25 +37,9 @@
 </header>
 
 <main>
-    <h2 class="border-black">Образование</h2>
-    <br>
-    <p class="border-gray text-container">
-        Национальный исследовательский университет ИТМО, Санкт-Петербург, Россия.<br>
-        Факультет ФИТиП.<br>
-        Бакалавр 3-ого курса.<br>
-    </p>
-    <br><br><br>
-
-    <h2 class="border-black">Курсы</h2>
-    <br>
-    <p class="border-gray text-container">
-        <b>Школа бэкенд-разработки Яндекс</b><br>
-        Проходил курсы Школы бэкенд-разработки Яндекса, которые состояли из двух этапов.
-        На первом этапе мы изучали теорию, выполняли домашние задания и проверяли работы других студентов.
-        На втором этапе работали в командах над выбранными проектами.<br>
-        <br>
-        <a href="images/ШБР%20Java.pdf" target="_blank">Сертификат</a>
-    </p>
+    <div id="feedbacks-container" class="text-container">
+        <div id="preloader" class="preloader"></div>
+    </div>
 </main>
 
 <footer>
@@ -61,11 +47,11 @@
     <ul class="column">
         <li><img src="images/phone-icon.png" alt="Number"> +7 (963) 34-77-19</li>
         <li><img src="images/email-icon.png" alt="Email"> artemgun2004@yandex.ru</li>
-        <li><img src="images/telegram-icon.png" alt="Telegram"> <a href="https://t.me/leanaholic" target="_blank">@leanaholic</a>
-        </li>
+        <li><img src="images/telegram-icon.png" alt="Telegram"> <a href="https://t.me/leanaholic" target="_blank">@leanaholic</a></li>
         <li><img src="images/github-icon.png" alt="GitHub"> <a href="https://github.com/NersRbs"
                                                                target="_blank">NersRbs</a></li>
     </ul>
 </footer>
+
 </body>
 </html>

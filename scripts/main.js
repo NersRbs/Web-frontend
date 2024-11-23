@@ -15,6 +15,7 @@ function handleNavLinks() {
     });
 }
 
+
 (function() {
     window.addEventListener('load', function() {
         handleNavLinks();
